@@ -1,6 +1,8 @@
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
+import lxml
+
 #get current open trials from NRG Oncology and save file
 nrg_url = 'https://www.nrgoncology.org/Clinical-Trials/Protocol-Search'
 df1 = pd.read_html(nrg_url)
