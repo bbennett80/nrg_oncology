@@ -1,6 +1,7 @@
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
+import lxml
 
 #gather trial data from NRG Oncology, place in dataframe
 nrg_url = 'https://www.nrgoncology.org/Clinical-Trials/Protocol-Search'
