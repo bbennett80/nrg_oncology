@@ -34,4 +34,4 @@ open_trial = df.Status == 'Open to Accrual'
 open_filtered = df.loc[open_trial]
 
 #JSON document
-open_filtered.to_json('NRG_open_trials.json', index=False, orient='table', indent=2)
+open_filtered.to_json('NRG_open_trials.json', orient='index', indent=2)
