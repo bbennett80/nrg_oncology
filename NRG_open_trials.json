@@ -42,6 +42,17 @@
   },
   "data":[
     {
+      "Study":"NRG-GU009",
+      "Title":"Parallel Phase III Randomized Trials For High Risk Prostate Cancer Evaluating De-Intensification For Lower Genomic Risk and Intensification of Concurrent Therapy for Higher Genomic Risk with Radiation (Predict-RT*) *Prostate RNA Expression\/Decipher To Individualize Concurrent Therapy with Radiation",
+      "Status":"Open to Accrual",
+      "Phase":"III",
+      "Disease Category":"Genitourinary [GU]",
+      "Disease Site":"Prostate",
+      "Enrolled":"",
+      "Planned":"",
+      "Trial link":"https:\/\/www.nrgoncology.org\/\/Clinical-Trials\/Protocol\/nrg-gu009-1?filter=nrg-gu009-1"
+    },
+    {
       "Study":"EA8185",
       "Title":"ECOG-ACRIN\/NRG Joint Study:A Study of Chemotherapy and Radiation Therapy Compared to Chemotherapy and Radiation Therapy Plus MEDI4736 (Durvalumab) Immunotherapy for Bladder Cancer Which Has Spread to the Lymph Nodes, the INSPIRE Study",
       "Status":"Open to Accrual",
@@ -260,6 +271,17 @@
       "Enrolled":"",
       "Planned":"",
       "Trial link":"https:\/\/www.nrgoncology.org\/\/Clinical-Trials\/Protocol\/nrg-lu002?filter=nrg-lu002"
+    },
+    {
+      "Study":"NRG-CC003",
+      "Title":"A Randomized Phase II\/III Trial of Prophylactic Cranial Irradiation with or without Hippocampal Avoidance for Small Cell Lung Cancer",
+      "Status":"Open to Accrual",
+      "Phase":"II\/III",
+      "Disease Category":"Symptom Management [CC]",
+      "Disease Site":"Other",
+      "Enrolled":"",
+      "Planned":"",
+      "Trial link":"https:\/\/www.nrgoncology.org\/\/Clinical-Trials\/Protocol\/nrg-cc003?filter=nrg-cc003"
     },
     {
       "Study":"NRG-LU004",
