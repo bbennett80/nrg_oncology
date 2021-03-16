@@ -1,20 +1,27 @@
+import glob
+import json
+import os
 import pandas as pd
 import requests
-import json
-import glob
-import os
+
+from openpyxl import load_workbook
+from openpyxl.styles import Alignment
+from openpyxl.styles import Font
 
 def main():
     """Download all "open to accrual" clinical trials from NRG Oncology.
     Feed trials to clinicaltrials.gov API to retrieve full study data.
     Combine into a .xlsx file with tabbed disease sites.
     """
+    
     folder_setup()
     nrg_trials = gather_nrg_trials()
     trial_search(nrg_trials)
     extract_brief()
     combine()
     clean_up()
+    prettify()
+
 
 def folder_setup():
     current_directory = os.getcwd()
@@ -121,6 +128,25 @@ def clean_up():
         except OSError as e:
             print(f'Error: {file_path} : {e.strerror}')
 
+def prettify():
+    wb = load_workbook('NRG Open Study Merge.xlsx')
+    
+    for ws in wb.worksheets:
+        ws.column_dimensions['A'].width = 12
+        ws.column_dimensions['B'].width = 14
+        ws.column_dimensions['C'].width = 55
+        ws.column_dimensions['D'].width = 100
+        ws.column_dimensions['E'].width = 100
+        ws.column_dimensions['F'].width = 12
+        ws.column_dimensions['G'].width = 16
+        ws.column_dimensions['H'].width = 19
+        ws.column_dimensions['I'].width = 42
+        for cell in ws:
+            for row in cell:
+                row.alignment = Alignment(horizontal='justify', vertical='center', wrap_text=True)
+                row.font = Font(name='Calibri',size=12)
+
+    wb.save('NRG Open Study Merge.xlsx')   
             
 if __name__=='__main__':
     main()
