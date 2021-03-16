@@ -42,6 +42,9 @@ def gather_nrg_trials():
     nrg_url = 'https://www.nrgoncology.org/Clinical-Trials/Protocol-Search'
     df1 = pd.read_html(nrg_url)
     df = df1[0]
+    df.Study = df.Study.str.replace('NRG-GI004/SWOG-S1610', 'NRG-GI004 SWOG-S1610')
+
+
     open_trial = df.Status == 'Open to Accrual'
     open_filtered = df.loc[open_trial]
     open_filtered = open_filtered.drop(columns=['Title', 'Status'])
@@ -50,7 +53,7 @@ def gather_nrg_trials():
 
 def trial_search(nrg_trials):    
     for nrg_num in nrg_trials.Study:
-        nrg_num = nrg_num.replace(' ', '+')
+        nrg_num = nrg_num.replace(' ', '+').replace('/', ' ')
         api_url = f'https://clinicaltrials.gov/api/query/full_studies?expr={nrg_num}&min_rnk=1&max_rnk=&fmt=json'
         r = requests.get(api_url).text
         raw_json = json.loads(r)
@@ -132,7 +135,7 @@ def prettify():
     wb = load_workbook('NRG Open Study Merge.xlsx')
     
     for ws in wb.worksheets:
-        ws.column_dimensions['A'].width = 12
+        ws.column_dimensions['A'].width = 15
         ws.column_dimensions['B'].width = 14
         ws.column_dimensions['C'].width = 55
         ws.column_dimensions['D'].width = 100
