@@ -64,7 +64,6 @@ def trial_search(nrg_trials):
         else:
             print('Downloading:', nrg_num)
 
-            r = requests.get(api_url)
             r = requests.get(api_url).text
             raw_json = json.loads(r)
             with open(f'Full_Studies/{nrg_num}.json', 'w+') as f:
