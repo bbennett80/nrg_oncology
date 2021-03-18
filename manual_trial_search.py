@@ -4,7 +4,7 @@ def manual_trial_search(trial_number: str):
     raw_json = json.loads(r)
     if raw_json['FullStudiesResponse']['NStudiesFound'] == 0:
         print('No study available by this NRG number.', trial_number)
-        with open('study_not_available.txt', 'a+') as log:
+        with open('manual_not_available.txt', 'a+') as log:
             log.write(f'{trial_number}\n')
     else:
         print('Downloading:', trial_number)
@@ -16,7 +16,6 @@ def manual_trial_search(trial_number: str):
             json.dump(raw_json, f, indent=2)
 
 # S1207 = NCT01674140
-# NRG-CC009 = no NCTId assigned
 # NRG-GI004/SWOG-S1610 = NCT02997228
 # SWOG-S1418+NRG-BR006 = closed
 # manual_trial_search('NCT02997228')
