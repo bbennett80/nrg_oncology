@@ -44,7 +44,6 @@ def gather_nrg_trials():
     df = df1[0]
     df.Study = df.Study.str.replace('NRG-GI004/SWOG-S1610', 'NRG-GI004 SWOG-S1610')
 
-
     open_trial = df.Status == 'Open to Accrual'
     open_filtered = df.loc[open_trial]
     open_filtered = open_filtered.drop(columns=['Title', 'Status'])
@@ -64,6 +63,7 @@ def trial_search(nrg_trials):
         else:
             print('Downloading:', nrg_num)
 
+            r = requests.get(api_url)
             r = requests.get(api_url).text
             raw_json = json.loads(r)
             with open(f'Full_Studies/{nrg_num}.json', 'w+') as f:
@@ -82,12 +82,16 @@ def extract_brief():
         with open(study, 'r') as study_doc:
             data = json.load(study_doc)
             nrg_id = data['FullStudiesResponse']['Expression']
+            planned = ''
+            actual = ''
             nctid = data['FullStudiesResponse']['FullStudies'][0]['Study']['ProtocolSection']['IdentificationModule']['NCTId']
             title = data['FullStudiesResponse']['FullStudies'][0]['Study']['ProtocolSection']['IdentificationModule']['OfficialTitle']
             brief = data['FullStudiesResponse']['FullStudies'][0]['Study']['ProtocolSection']['DescriptionModule']['BriefSummary']
             criteria = data['FullStudiesResponse']['FullStudies'][0]['Study']['ProtocolSection']['EligibilityModule']['EligibilityCriteria']
 
             study_data = {'Study': nrg_id,
+                          'Planned': planned,
+                          'Actual': actual,
                           'NCTId': nctid,
                           'Title': title,
                           'Brief Summary': brief,
@@ -134,21 +138,23 @@ def prettify():
     wb = load_workbook('NRG Open Study Merge.xlsx')
     
     for ws in wb.worksheets:
-        ws.column_dimensions['A'].width = 15
-        ws.column_dimensions['B'].width = 14
-        ws.column_dimensions['C'].width = 55
-        ws.column_dimensions['D'].width = 100
-        ws.column_dimensions['E'].width = 100
-        ws.column_dimensions['F'].width = 12
-        ws.column_dimensions['G'].width = 16
-        ws.column_dimensions['H'].width = 19
-        ws.column_dimensions['I'].width = 42
+        ws.column_dimensions['A'].width = 12
+        ws.column_dimensions['B'].width = 12
+        ws.column_dimensions['C'].width = 12
+        ws.column_dimensions['D'].width = 14
+        ws.column_dimensions['E'].width = 55
+        ws.column_dimensions['F'].width = 100
+        ws.column_dimensions['G'].width = 100
+        ws.column_dimensions['H'].width = 12
+        ws.column_dimensions['I'].width = 16
+        ws.column_dimensions['J'].width = 19
+        ws.column_dimensions['K'].width = 42
         for cell in ws:
             for row in cell:
                 row.alignment = Alignment(horizontal='justify', vertical='center', wrap_text=True)
                 row.font = Font(name='Calibri',size=12)
 
-    wb.save('NRG Open Study Merge.xlsx')   
+    wb.save('NRG Open Study Merge.xlsx')  
             
 if __name__=='__main__':
     main()
