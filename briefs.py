@@ -42,7 +42,8 @@ def gather_nrg_trials():
     nrg_url = 'https://www.nrgoncology.org/Clinical-Trials/Protocol-Search'
     df1 = pd.read_html(nrg_url)
     df = df1[0]
-    df.Study = df.Study.str.replace('NRG-GI004/SWOG-S1610', 'NRG-GI004 SWOG-S1610')
+    df.Study = df.Study.str.replace('NRG-GI004/SWOG-S1610', 'S1610')
+    df.Study = df.Study.str.replace('SWOG-S1207 NSABP B-53', 'S1207')
 
     open_trial = df.Status == 'Open to Accrual'
     open_filtered = df.loc[open_trial]
