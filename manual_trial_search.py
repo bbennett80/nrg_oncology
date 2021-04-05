@@ -9,7 +9,6 @@ def manual_trial_search(trial_number: str):
     else:
         print('Downloading:', trial_number)
 
-        r = requests.get(api_url)
         r = requests.get(api_url).text
         raw_json = json.loads(r)
         with open(f'{trial_number}.json', 'w+') as f:
