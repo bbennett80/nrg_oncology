@@ -55,19 +55,19 @@ def trial_search(nrg_trials):
     for nrg_num in nrg_trials.Study:
         nrg_num = nrg_num.replace(' ', '+').replace('/', ' ')
         api_url = f'https://clinicaltrials.gov/api/query/full_studies?expr={nrg_num}&min_rnk=1&max_rnk=&fmt=json'
-        r = requests.get(api_url).text
-        raw_json = json.loads(r)
-        if raw_json['FullStudiesResponse']['NStudiesFound'] == 0:
+        r = requests.get(api_url).json()
+        
+        if r['FullStudiesResponse']['NStudiesFound'] == 0:
             print('No study available by this NRG number.', nrg_num)
             with open('Full_Studies/not_available.txt', 'a+') as log:
                 log.write(f'{nrg_num}\n')
         else:
             print('Downloading:', nrg_num)
 
-            r = requests.get(api_url).text
-            raw_json = json.loads(r)
+            r = requests.get(api_url).json()
+            
             with open(f'Full_Studies/{nrg_num}.json', 'w+') as f:
-                json.dump(raw_json, f, indent=2)
+                json.dump(r, f, indent=2)
 
     with open('Full_Studies/not_available.txt', 'r') as log:
         print('The following clinical trials were not available for download. Please check online.')
