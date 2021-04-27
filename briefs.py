@@ -132,7 +132,7 @@ def clean_up():
             for files in all_studies:
                 os.remove(files)
         except OSError as e:
-            print(f'Error: {file_path} : {e.strerror}')
+            print(f'Error: {files} : {e.strerror}')
 
 def prettify():
     wb = load_workbook('NRG Open Study Merge.xlsx')
