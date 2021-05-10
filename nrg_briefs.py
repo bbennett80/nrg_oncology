@@ -42,6 +42,7 @@ def scrape_nrg_trials():
     df = df1[0]
     df.Study = df.Study.str.replace('NRG-GI004/SWOG-S1610', 'S1610')
     df.Study = df.Study.str.replace('SWOG-S1207 NSABP B-53', 'S1207')
+    df.Study = df.Study.str.replace('SWOG-S1418 NRG-BR006', 'S1418')
 
     open_trial = (df.Status == 'Open to Accrual')
     open_filtered = df.loc[open_trial]
