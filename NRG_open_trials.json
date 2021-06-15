@@ -65,17 +65,6 @@
     "Planned":"",
     "Trial link":"https:\/\/www.nrgoncology.org\/\/Clinical-Trials\/Protocol\/nrg-gu009-1?filter=nrg-gu009-1"
   },
-  "10":{
-    "Study":"NRG-HN007",
-    "Title":"An Open Label, Phase III Study of Platinum-Gemcitabine With or Without Nivolumab in the First-Line Treatment of Recurrent or Metastatic Nasopharyngeal Carcinoma",
-    "Status":"Open to Accrual",
-    "Phase":"III",
-    "Disease Category":"Head and Neck [HN]",
-    "Disease Site":"Head and Neck",
-    "Enrolled":"",
-    "Planned":"",
-    "Trial link":"https:\/\/www.nrgoncology.org\/\/Clinical-Trials\/Protocol\/nrg-hn007?filter=nrg-hn007"
-  },
   "11":{
     "Study":"EA8185",
     "Title":"ECOG-ACRIN\/NRG Joint Study:A Study of Chemotherapy and Radiation Therapy Compared to Chemotherapy and Radiation Therapy Plus MEDI4736 (Durvalumab) Immunotherapy for Bladder Cancer Which Has Spread to the Lymph Nodes, the INSPIRE Study",
@@ -196,6 +185,17 @@
     "Enrolled":"",
     "Planned":"",
     "Trial link":"https:\/\/www.nrgoncology.org\/\/Clinical-Trials\/Protocol\/nrg-lu006?filter=nrg-lu006"
+  },
+  "23":{
+    "Study":"NRG-GI005",
+    "Title":"Phase II\/III Study of Circulating tumOr DNA as a Predictive BiomaRker in Adjuvant Chemotherapy in Patients with Stage IIA Colon Cancer (COBRA)",
+    "Status":"Open to Accrual",
+    "Phase":"II\/III",
+    "Disease Category":"Gastrointestinal [GI]",
+    "Disease Site":"Colorectal",
+    "Enrolled":"",
+    "Planned":"",
+    "Trial link":"https:\/\/www.nrgoncology.org\/\/Clinical-Trials\/Protocol\/nrg-gi005-1?filter=nrg-gi005-1"
   },
   "25":{
     "Study":"NRG-GY022",
