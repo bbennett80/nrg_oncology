@@ -35,3 +35,6 @@ open_filtered = df.loc[open_trial]
 
 #JSON document
 open_filtered.to_json('NRG_open_trials.json', orient='index', indent=2)
+
+#CSV document
+open_filtered.to_csv('NRG_open_trials.csv', index=False)
