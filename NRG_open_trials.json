@@ -1,5 +1,16 @@
 {
   "0":{
+    "Study":"NRG-BN012",
+    "Title":"A Randomized Phase III Trial Of Pre-Operative Compared To Post-Operative Stereotactic Radiosurgery In Patients With Resectable Brain Metastases",
+    "Status":"Open to Accrual",
+    "Phase":"III",
+    "Disease Category":"Brain [BN]",
+    "Disease Site":"Other",
+    "Enrolled":"",
+    "Planned":"",
+    "Trial link":"https:\/\/www.nrgoncology.org\/\/Clinical-Trials\/Protocol\/nrg-bn012?filter=nrg-bn012"
+  },
+  "1":{
     "Study":"NRG-GY026",
     "Title":"A Phase II\/III Study Of Paclitaxel\/Carboplatin Alone Or Combined With Either Trastuzumab And Hyaluronidase-Oysk (Herceptin Hylecta) Or Pertuzumab, Trastuzumab, And Hyaluronidase-Zzxf (Phesgo) In Her2 Positive, Stage I-Iv Endometrial Serous Carcinoma Or Carcinosarcoma",
     "Status":"Open to Accrual",
@@ -10,7 +21,7 @@
     "Planned":"",
     "Trial link":"https:\/\/www.nrgoncology.org\/\/Clinical-Trials\/Protocol\/nrg-gy026?filter=nrg-gy026"
   },
-  "1":{
+  "2":{
     "Study":"NRG-GY029",
     "Title":"A Randomized Phase II trial comparing the combination of PI3K inhibitor Copanlisib (BAY 80-6946) and PARP inhibitor Olaparib (AZD2281) to standard chemotherapy in patients with recurrent platinum resistant ovarian, fallopian tube, or primary peritoneal cancer who have progressed through prior PARP inhibitor therapy",
     "Status":"Open to Accrual",
@@ -21,7 +32,7 @@
     "Planned":"",
     "Trial link":"https:\/\/www.nrgoncology.org\/\/Clinical-Trials\/Protocol\/nrg-gy029?filter=nrg-gy029"
   },
-  "2":{
+  "3":{
     "Study":"NRG-GY027",
     "Title":"NRG-GY027: PHASE I\/IB SAFETY AND PHARMACODYNAMIC STUDY OF NEOADJUVANT (NACT) PACLITAXEL AND CARBOPLATIN WITH IPATASERTIB AS INITIAL THERAPY OF OVARIAN CANCER PTMA 100805",
     "Status":"Open to Accrual",
@@ -32,7 +43,7 @@
     "Planned":"",
     "Trial link":"https:\/\/www.nrgoncology.org\/\/Clinical-Trials\/Protocol\/nrg-gy025-1?filter=nrg-gy025-1"
   },
-  "3":{
+  "4":{
     "Study":"NRG-GU012",
     "Title":"Randomized Phase II Stereotactic Ablative Radiation Therapy (SABR) For Metastatic Unresected Renal Cell Carcinoma (RCC) Receiving Immunotherapy (Samurai)",
     "Status":"Open to Accrual",
@@ -43,7 +54,7 @@
     "Planned":"",
     "Trial link":"https:\/\/www.nrgoncology.org\/\/Clinical-Trials\/Protocol\/nrg-gu012?filter=nrg-gu012"
   },
-  "4":{
+  "5":{
     "Study":"NRG-GI008",
     "Title":"Colon Adjuvant Chemotherapy based on Evaluation of Residual Disease (CIRCULATE-US)",
     "Status":"Open to Accrual",
@@ -54,7 +65,7 @@
     "Planned":"",
     "Trial link":"https:\/\/www.nrgoncology.org\/\/Clinical-Trials\/Protocol\/nrg-gi008?filter=nrg-gi008"
   },
-  "5":{
+  "6":{
     "Study":"NRG-GY025",
     "Title":"NRG-GY025: A RANDOMIZED PHASE II TRIAL OF NIVOLUMAB AND IPILIMUMAB COMPARED TO NIVOLUMAB MONOTHERAPY IN PATIENTS WITH DEFICIENT MISMATCH REPAIR SYSTEM RECURRENT ENDOMETRIAL CARCINOMA",
     "Status":"Open to Accrual",
@@ -65,7 +76,7 @@
     "Planned":"",
     "Trial link":"https:\/\/www.nrgoncology.org\/\/Clinical-Trials\/Protocol\/nrg-gy025?filter=nrg-gy025"
   },
-  "6":{
+  "7":{
     "Study":"NRG-GU011",
     "Title":"A Phase II Double-Blinded, Placebo Controlled Trial of Prostate Oligometastatic Radiotherapy with or without Androgen Deprivation Therapy in Oligometastatic Prostate Cancer (NRG Promethean)",
     "Status":"Open to Accrual",
@@ -76,7 +87,7 @@
     "Planned":"",
     "Trial link":"https:\/\/www.nrgoncology.org\/\/Clinical-Trials\/Protocol\/nrg-gu011?filter=nrg-gu011"
   },
-  "7":{
+  "8":{
     "Study":"NRG-BN011",
     "Title":"A Phase III Trial of Lomustine-Temozolomide Combination Therapy Versus Standard Temozolomide in Patients with Methylated MGMT Promoter Glioblastoma",
     "Status":"Open to Accrual",
@@ -87,7 +98,7 @@
     "Planned":"",
     "Trial link":"https:\/\/www.nrgoncology.org\/\/Clinical-Trials\/Protocol\/nrg-bn011?filter=nrg-bn011"
   },
-  "8":{
+  "9":{
     "Study":"NRG-HN009",
     "Title":"Randomized Phase II\/III Trial of Radiation with High-Dose Cisplatin (100 mg\/m2) Every Three Weeks versus Radiation with Low-Dose Weekly Cisplatin (40 mg\/m2) for Patients with Locoregionally Advanced Squamous Cell Carcinoma of The Head And Neck (SCCHN)",
     "Status":"Open to Accrual",
@@ -98,7 +109,7 @@
     "Planned":"",
     "Trial link":"https:\/\/www.nrgoncology.org\/\/Clinical-Trials\/Protocol\/nrg-hn009?filter=nrg-hn009"
   },
-  "9":{
+  "10":{
     "Study":"NRG-CC005",
     "Title":"Five or Ten Year Colonoscopy for 1-2 Non-Advanced Adenomatous Polyps",
     "Status":"Open to Accrual",
@@ -109,7 +120,7 @@
     "Planned":"",
     "Trial link":"https:\/\/www.nrgoncology.org\/\/Clinical-Trials\/Protocol\/nrg-cc005-forte?filter=nrg-cc005-forte"
   },
-  "10":{
+  "11":{
     "Study":"NRG-GU010",
     "Title":"Parallel Phase III Randomized Trials Of Genomic-Risk Stratified Unfavorable Intermediate Risk Prostate Cancer: De-Intensification And Intensification Clinical Trial Evaluation (Guidance)",
     "Status":"Open to Accrual",
@@ -120,7 +131,7 @@
     "Planned":"",
     "Trial link":"https:\/\/www.nrgoncology.org\/\/Clinical-Trials\/Protocol\/nrg-gu010-1?filter=nrg-gu010-1"
   },
-  "11":{
+  "12":{
     "Study":"NRG-GY024",
     "Title":"Groningen International Study on Sentinel Nodes in Vulvar Cancer (GROINSS-V) III: A Prospective Phase II Treatment Trial",
     "Status":"Open to Accrual",
@@ -131,7 +142,7 @@
     "Planned":"",
     "Trial link":"https:\/\/www.nrgoncology.org\/\/Clinical-Trials\/Protocol\/nrg-gy024-1?filter=nrg-gy024-1"
   },
-  "13":{
+  "14":{
     "Study":"NRG-BR007",
     "Title":"A Phase III Clinical Trial evaluating De-escalation of Breast Radiation for Conservative Treatment of Stage I, Hormone Sensitive, HER2-Negative, Oncotype Recurrence Score Less than or Equal to 18: The DEBRA Trial",
     "Status":"Open to Accrual",
@@ -142,7 +153,7 @@
     "Planned":"",
     "Trial link":"https:\/\/www.nrgoncology.org\/\/Clinical-Trials\/Protocol\/nrg-br007?filter=nrg-br007"
   },
-  "14":{
+  "15":{
     "Study":"NRG-GY023",
     "Title":"A Randomized Phase II Trial of Triplet Therapy (A PD-L1 Inhibitor Durvalumab (MEDI4736) in Combination With Olaparib and Cediranib) Compared to Olaparib and Cediranib or Durvalumab (MEDI4736) and Cediranib or Standard of Care Chemotherapy in Women With Platinum-Resistant Recurrent Epithelial Ovarian Cancer, Primary Peritoneal or Fallopian Cancer Who Have Received Prior Bevacizumab",
     "Status":"Open to Accrual",
@@ -153,7 +164,7 @@
     "Planned":"",
     "Trial link":"https:\/\/www.nrgoncology.org\/\/Clinical-Trials\/Protocol\/nrg-gy023?filter=nrg-gy023"
   },
-  "16":{
+  "17":{
     "Study":"NRG-CC009",
     "Title":"Phase III Trial of Stereotactic Radiosurgery (SRS) versus Hippocampal-Avoidant Whole Brain Radiotherapy (HA-WBRT) for 10 or Fewer Brain Metastases from Small Cell Lung Cancer",
     "Status":"Open to Accrual",
@@ -164,7 +175,7 @@
     "Planned":"",
     "Trial link":"https:\/\/www.nrgoncology.org\/\/Clinical-Trials\/Protocol\/nrg-cc009-1?filter=nrg-cc009-1"
   },
-  "20":{
+  "21":{
     "Study":"NRG-BN009",
     "Title":"Phase III Trial of Salvage Stereotactic Radiosurgery (SRS) or SRS + Hippocampal-Avoidant Whole Brain Radiotherapy (HA-WBRT) for First or Second Distant Brain Relapse After Upfront SRS With Brain Metastasis Velocity \u22654 Brain Metastases\/Year",
     "Status":"Open to Accrual",
@@ -175,7 +186,7 @@
     "Planned":"",
     "Trial link":"https:\/\/www.nrgoncology.org\/\/Clinical-Trials\/Protocol\/nrg-bn009?filter=nrg-bn009"
   },
-  "21":{
+  "22":{
     "Study":"NRG-HN008",
     "Title":"Phase I Trial With Expansion Cohort of DNA-PK Inhibition and IMRT In Cisplatin-Ineligible Patients with Stage 3-4 Local-Regionally Advanced Head and Neck Squamous Cell Carcinoma (HNSCC)",
     "Status":"Open to Accrual",
@@ -186,7 +197,7 @@
     "Planned":"",
     "Trial link":"https:\/\/www.nrgoncology.org\/\/Clinical-Trials\/Protocol\/nrg-hn008?filter=nrg-hn008"
   },
-  "22":{
+  "23":{
     "Study":"NRG-GU009",
     "Title":"Parallel Phase III Randomized Trials For High Risk Prostate Cancer Evaluating De-Intensification For Lower Genomic Risk and Intensification of Concurrent Therapy for Higher Genomic Risk with Radiation (Predict-RT*) *Prostate RNA Expression\/Decipher To Individualize Concurrent Therapy with Radiation",
     "Status":"Open to Accrual",
@@ -197,7 +208,7 @@
     "Planned":"",
     "Trial link":"https:\/\/www.nrgoncology.org\/\/Clinical-Trials\/Protocol\/nrg-gu009-1?filter=nrg-gu009-1"
   },
-  "24":{
+  "25":{
     "Study":"EA8185",
     "Title":"ECOG-ACRIN\/NRG Joint Study:A Study of Chemotherapy and Radiation Therapy Compared to Chemotherapy and Radiation Therapy Plus MEDI4736 (Durvalumab) Immunotherapy for Bladder Cancer Which Has Spread to the Lymph Nodes, the INSPIRE Study",
     "Status":"Open to Accrual",
@@ -208,7 +219,7 @@
     "Planned":"",
     "Trial link":"https:\/\/www.nrgoncology.org\/\/Clinical-Trials\/Protocol\/ea8185?filter=ea8185"
   },
-  "25":{
+  "26":{
     "Study":"NRG-LU007",
     "Title":"RAndomized Phase II\/III Trial of Consolidation Radiation + Immunotherapy for ES-SCLC: RAPTOR Trial",
     "Status":"Open to Accrual",
@@ -219,7 +230,7 @@
     "Planned":"",
     "Trial link":"https:\/\/www.nrgoncology.org\/\/Clinical-Trials\/Protocol\/nrg-lu007?filter=nrg-lu007"
   },
-  "28":{
+  "29":{
     "Study":"NRG-CC008",
     "Title":"A Non-Randomized Prospective Clinical Trial Comparing the Non-Inferiority of Salpingectomy to Salpingo-Oophorectomy to Reduce the Risk of Ovarian Cancer Among BRCA1 Carriers [SOROCk]",
     "Status":"Open to Accrual",
@@ -230,7 +241,7 @@
     "Planned":"",
     "Trial link":"https:\/\/www.nrgoncology.org\/\/Clinical-Trials\/Protocol\/nrg-cc008?filter=nrg-cc008"
   },
-  "29":{
+  "30":{
     "Study":"NRG-HN006",
     "Title":"Randomized Phase II\/III Trial Of Sentinel Lymph Node Biopsy Versus Elective Neck Dissection For Early-Stage Oral Cavity Cancer",
     "Status":"Open to Accrual",
@@ -241,7 +252,7 @@
     "Planned":"",
     "Trial link":"https:\/\/www.nrgoncology.org\/\/Clinical-Trials\/Protocol\/nrg-hn006?filter=nrg-hn006"
   },
-  "30":{
+  "31":{
     "Study":"NRG-GI007",
     "Title":"Phase I Trial with Expansion Cohort of OBP-301 (Telomelysin) and Definitive Chemoradiation for Patients with Locally Advanced Esophageal And Gastroesophageal Adenocarcinoma Who are Not Candidates for Surgery",
     "Status":"Open to Accrual",
@@ -252,7 +263,7 @@
     "Planned":"",
     "Trial link":"https:\/\/www.nrgoncology.org\/\/Clinical-Trials\/Protocol\/nrg-gi007?filter=nrg-gi007"
   },
-  "31":{
+  "32":{
     "Study":"S1914",
     "Title":"SWOG\/NRG Joint Study: A Randomized Phase III Trial of Induction\/ Consolidation Atezolizumab (NSC #783608) + SBRT Versus SBRT Alone in High Risk, Early Stage NSCLC",
     "Status":"Open to Accrual",
@@ -263,7 +274,7 @@
     "Planned":"",
     "Trial link":"https:\/\/www.nrgoncology.org\/\/Clinical-Trials\/Protocol\/s1914?filter=s1914"
   },
-  "32":{
+  "33":{
     "Study":"S1806",
     "Title":"SWOG\/NRG Joint Study: Phase III Randomized Trial of Concurrent Chemoradiotherapy with or without Atezolizumab in Localized Muscle Invasive Bladder Cancer",
     "Status":"Open to Accrual",
@@ -274,7 +285,7 @@
     "Planned":"",
     "Trial link":"https:\/\/www.nrgoncology.org\/\/Clinical-Trials\/Protocol\/s1806?filter=s1806"
   },
-  "33":{
+  "34":{
     "Study":"NRG-GU008",
     "Title":"Randomized Phase III Trial Incorporating Apalutamide and Advanced Imaging into Salvage Treatment for Patients with Node-Positive Prostate Cancer After Radical Prostatectomy (INNOVATE*) *INtensifying treatment for NOde positive prostate cancer by VArying the hormonal ThErapy",
     "Status":"Open to Accrual",
@@ -285,7 +296,7 @@
     "Planned":"",
     "Trial link":"https:\/\/www.nrgoncology.org\/\/Clinical-Trials\/Protocol\/nrg-gu008?filter=nrg-gu008"
   },
-  "34":{
+  "35":{
     "Study":"NRG-GY020",
     "Title":"A Phase III Randomized Trial of Radiation +\/- Pembrolizumab (MK-3475) for Newly Diagnosed, Early Stage High Intermediate Risk Mismatch Repair Deficient (dMMR) Endometrioid Endometrial Cancer",
     "Status":"Open to Accrual",
@@ -296,7 +307,7 @@
     "Planned":"",
     "Trial link":"https:\/\/www.nrgoncology.org\/\/Clinical-Trials\/Protocol\/nrg-gy020-1?filter=nrg-gy020-1"
   },
-  "35":{
+  "36":{
     "Study":"NRG-LU006",
     "Title":"Phase III Randomized Trial of Pleurectomy\/Decortication Plus Chemotherapy With or Without Adjuvant Hemithoracic Intensity-Modulated Pleural Radiation Therapy (IMPRINT) For Malignant Pleural Mesothelioma (MPM)",
     "Status":"Open to Accrual",
@@ -307,7 +318,7 @@
     "Planned":"",
     "Trial link":"https:\/\/www.nrgoncology.org\/\/Clinical-Trials\/Protocol\/nrg-lu006?filter=nrg-lu006"
   },
-  "36":{
+  "37":{
     "Study":"NRG-GI005",
     "Title":"Phase II\/III Study of Circulating tumOr DNA as a Predictive BiomaRker in Adjuvant Chemotherapy in Patients with Stage IIA Colon Cancer (COBRA)",
     "Status":"Open to Accrual",
@@ -318,7 +329,7 @@
     "Planned":"",
     "Trial link":"https:\/\/www.nrgoncology.org\/\/Clinical-Trials\/Protocol\/nrg-gi005-1?filter=nrg-gi005-1"
   },
-  "38":{
+  "39":{
     "Study":"NRG-GY022",
     "Title":"Assessment of Carboplatin Clearance Predictors: A PK Study on NCI-sponsored Clinical Trials or Standard of Care Treatments Using Carboplatin",
     "Status":"Open to Accrual",
@@ -329,7 +340,7 @@
     "Planned":"",
     "Trial link":"https:\/\/www.nrgoncology.org\/\/Clinical-Trials\/Protocol\/nrg-gy022?filter=nrg-gy022"
   },
-  "39":{
+  "40":{
     "Study":"NRG-GY019",
     "Title":"A Randomized Phase III, Two-Arm Trial of Paclitaxel\/Carboplatin\/Maintenance Letrozole Versus Letrozole Monotherapy in Patients with Stage II-IV, Primary Low-Grade Serous Carcinoma of the Ovary or Peritoneum",
     "Status":"Open to Accrual",
@@ -340,7 +351,7 @@
     "Planned":"",
     "Trial link":"https:\/\/www.nrgoncology.org\/\/Clinical-Trials\/Protocol\/nrg-gy019?filter=nrg-gy019"
   },
-  "41":{
+  "42":{
     "Study":"NRG-GY018",
     "Title":"A PHASE III RANDOMIZED, PLACEBO-CONTROLLED STUDY OF PEMBROLIZUMAB (MK-3475, NSC #776864) IN ADDITION TO PACLITAXEL AND CARBOPLATIN FOR MEASURABLE STAGE III OR IVA, STAGE IVB OR RECURRENT ENDOMETRIAL CANCER",
     "Status":"Open to Accrual",
@@ -351,7 +362,7 @@
     "Planned":"",
     "Trial link":"https:\/\/www.nrgoncology.org\/\/Clinical-Trials\/Protocol\/nrg-gy018?filter=nrg-gy018"
   },
-  "42":{
+  "43":{
     "Study":"NRG-GY014",
     "Title":"A Phase II Study of Tazemetostat (EPZ-6438) (IND # 138671) in Recurrent or Persistent Endometrioid or Clear Cell Carcinoma of the Ovary, and Recurrent or Persistent Endometrioid Endometrial Adenocarcinoma",
     "Status":"Open to Accrual",
@@ -362,7 +373,7 @@
     "Planned":"",
     "Trial link":"https:\/\/www.nrgoncology.org\/\/Clinical-Trials\/Protocol\/nrg-gy014?filter=nrg-gy014"
   },
-  "46":{
+  "47":{
     "Study":"NRG-GY012",
     "Title":"A Randomized Phase II Study Comparing Single-Agent Olaparib, Single Agent Cediranib, and the Combinations of Cediranib\/Olaparib, Olaparib\/Durvalumab (MEDI4736), Cediranib\/Durvalumab (MEDI4736), Olaparib\/AZD5363 (Capivasertib) in Women with Recurrent, Persistent or Metastatic Endometrial Cancer.: A Platform Trial for Women with Recurrent or Persistent Endometrial Cancer",
     "Status":"Open to Accrual",
@@ -373,7 +384,7 @@
     "Planned":"",
     "Trial link":"https:\/\/www.nrgoncology.org\/\/Clinical-Trials\/Protocol\/nrg-gy012?filter=nrg-gy012"
   },
-  "49":{
+  "50":{
     "Study":"NRG-HN005",
     "Title":"A Randomized Phase II\/III Trial of De-Intensified Radiation Therapy for Patients with Early-Stage, p16-Positive, Non-Smoking Associated Oropharyngeal Cancer",
     "Status":"Open to Accrual",
@@ -384,7 +395,7 @@
     "Planned":"",
     "Trial link":"https:\/\/www.nrgoncology.org\/\/Clinical-Trials\/Protocol\/nrg-hn005?filter=nrg-hn005"
   },
-  "52":{
+  "53":{
     "Study":"NRG-DT001",
     "Title":"A Phase Ib Trial of Neoadjuvant AMG-232 Concurrent with Preoperative Radiotherapy in Wild-Type P53 Soft Tissue Sarcoma (STS)",
     "Status":"Open to Accrual",
@@ -395,7 +406,7 @@
     "Planned":"",
     "Trial link":"https:\/\/www.nrgoncology.org\/\/Clinical-Trials\/Protocol\/nrg-dt001?filter=nrg-dt001"
   },
-  "54":{
+  "55":{
     "Study":"NRG-LU005",
     "Title":"Limited Stage Small Cell Lung Cancer (LS-SCLC): A Phase III Randomized Study of Chemoradiation Versus Chemoradiation Plus Atezolizumab",
     "Status":"Open to Accrual",
@@ -406,7 +417,7 @@
     "Planned":"",
     "Trial link":"https:\/\/www.nrgoncology.org\/\/Clinical-Trials\/Protocol\/nrg-lu005?filter=nrg-lu005"
   },
-  "78":{
+  "79":{
     "Study":"NRG-GI006",
     "Title":"Phase III Randomized Trial of Proton Beam Therapy (PBT) Versus Intensity Modulated Photon Radiotherapy (IMRT) for the Treatment of Esophageal Cancer",
     "Status":"Open to Accrual",
@@ -417,7 +428,7 @@
     "Planned":"",
     "Trial link":"https:\/\/www.nrgoncology.org\/\/Clinical-Trials\/Protocol\/nrg-gi006?filter=nrg-gi006"
   },
-  "82":{
+  "83":{
     "Study":"NRG-GY006",
     "Title":"A Randomized Phase II Trial of Radiation Therapy and Cisplatin Alone or in Combination with Intravenous Triapine in Women with Newly Diagnosed Bulky Stage IB2, Stage II, IIIB, or IVA Cancer of the Uterine Cervix or Stage II-IVA Vaginal Cancer",
     "Status":"Open to Accrual",
@@ -428,7 +439,7 @@
     "Planned":"",
     "Trial link":"https:\/\/www.nrgoncology.org\/\/Clinical-Trials\/Protocol\/nrg-gy006?filter=nrg-gy006"
   },
-  "90":{
+  "91":{
     "Study":"NRG-HN001",
     "Title":"Randomized Phase II and Phase III Studies of Individualized Treatment for Nasopharyngeal Carcinoma Based on Biomarker Epstein Barr Virus (EBV) Deoxyribonucleic Acid (DNA)",
     "Status":"Open to Accrual",
@@ -439,7 +450,7 @@
     "Planned":"",
     "Trial link":"https:\/\/www.nrgoncology.org\/\/Clinical-Trials\/Protocol\/nrg-hn001?filter=nrg-hn001"
   },
-  "94":{
+  "95":{
     "Study":"RTOG-1308",
     "Title":"Phase III Randomized Trial Comparing Overall Survival After Photon Versus Proton Chemoradiotherapy for Inoperable Stage II-IIIB NSCLC",
     "Status":"Open to Accrual",
@@ -450,7 +461,7 @@
     "Planned":"",
     "Trial link":"https:\/\/www.nrgoncology.org\/\/Clinical-Trials\/Protocol\/rtog-1308?filter=rtog-1308"
   },
-  "95":{
+  "96":{
     "Study":"NRG-GI003",
     "Title":"A Phase III Randomized Trial of Protons Versus Photons for Hepatocellular Carcinoma",
     "Status":"Open to Accrual",
@@ -461,7 +472,7 @@
     "Planned":"",
     "Trial link":"https:\/\/www.nrgoncology.org\/\/Clinical-Trials\/Protocol\/nrg-gi003?filter=nrg-gi003"
   },
-  "96":{
+  "97":{
     "Study":"NRG-BN003",
     "Title":"Phase III Trial of Observation Versus Irradiation for a Gross Totally Resected Grade II Meningioma",
     "Status":"Open to Accrual",
@@ -472,7 +483,7 @@
     "Planned":"",
     "Trial link":"https:\/\/www.nrgoncology.org\/\/Clinical-Trials\/Protocol\/nrg-bn003?filter=nrg-bn003"
   },
-  "97":{
+  "98":{
     "Study":"NRG-BN005",
     "Title":"A Phase II Randomized Trial of Proton vs. Photon Therapy (IMRT) for Cognitive Preservation in Patients with IDH Mutant, Low to Intermediate Grade Gliomas.",
     "Status":"Open to Accrual",
@@ -483,7 +494,7 @@
     "Planned":"",
     "Trial link":"https:\/\/www.nrgoncology.org\/\/Clinical-Trials\/Protocol\/nrg-bn005?filter=nrg-bn005"
   },
-  "102":{
+  "103":{
     "Study":"AGCT1531",
     "Title":"A Phase 3 Study of Active Surveillance for Low Risk and a Randomized Trial of Carboplatin vs. Cisplatin for Standard Risk Pediatric and Adult Patients with Germ Cell Tumors",
     "Status":"Open to Accrual",
@@ -494,7 +505,7 @@
     "Planned":"",
     "Trial link":"https:\/\/www.nrgoncology.org\/\/Clinical-Trials\/Protocol\/agct1531?filter=agct1531"
   },
-  "161":{
+  "162":{
     "Study":"NRG-GI004\/SWOG-S1610",
     "Title":"Colorectal Cancer Metastatic dMMR Immuno-Therapy (COMMIT) Study: A Randomized Phase III Study of mFOLFOX6\/Bevacizumab Combination Chemotherapy with or without Atezolizumab or Atezolizumab Monotherapy in the First-Line Treatment of Patients with Deficient DNA Mismatch Repair (dMMR) Metastatic Colorectal Cancer",
     "Status":"Open to Accrual",
@@ -505,7 +516,7 @@
     "Planned":"",
     "Trial link":"https:\/\/www.nrgoncology.org\/\/Clinical-Trials\/Protocol\/nrg-gi004?filter=nrg-gi004"
   },
-  "183":{
+  "184":{
     "Study":"RTOG-1216",
     "Title":"Randomized Phase II\/III Trial of Adjuvant Radiation Therapy with Cisplatin, Docetaxel-Cetuximab, or Cisplatin-Atezolizumab in Pathologic High-Risk Squamous Cell Cancer of the Head and Neck",
     "Status":"Open to Accrual",
