@@ -38,7 +38,7 @@
     "Status":"Open to Accrual",
     "Phase":"I",
     "Disease Category":"Lung [LU]",
-    "Disease Site":"Other",
+    "Disease Site":"Non-small Cell Lung Cancer",
     "Enrolled":"",
     "Planned":"",
     "Trial link":"https:\/\/www.nrgoncology.org\/\/Clinical-Trials\/Protocol\/nrgf-001?filter=nrgf-001"
@@ -368,7 +368,7 @@
     "Status":"Open to Accrual",
     "Phase":"III",
     "Disease Category":"Lung [LU]",
-    "Disease Site":"Other",
+    "Disease Site":"Non-small Cell Lung Cancer",
     "Enrolled":"",
     "Planned":"",
     "Trial link":"https:\/\/www.nrgoncology.org\/\/Clinical-Trials\/Protocol\/s1914?filter=s1914"
@@ -417,24 +417,13 @@
     "Planned":"",
     "Trial link":"https:\/\/www.nrgoncology.org\/\/Clinical-Trials\/Protocol\/nrg-gy019?filter=nrg-gy019"
   },
-  "68":{
-    "Study":"NRG-LU005",
-    "Title":"Limited Stage Small Cell Lung Cancer (LS-SCLC): A Phase III Randomized Study of Chemoradiation Versus Chemoradiation Plus Atezolizumab",
-    "Status":"Open to Accrual",
-    "Phase":"III",
-    "Disease Category":"Lung [LU]",
-    "Disease Site":"Small Cell",
-    "Enrolled":"",
-    "Planned":"",
-    "Trial link":"https:\/\/www.nrgoncology.org\/\/Clinical-Trials\/Protocol\/nrg-lu005?filter=nrg-lu005"
-  },
   "85":{
     "Study":"NRG-LU004",
     "Title":"Phase I Trial of Radiotherapy Combined With Durvalumab Alone Plus Either Monalizumab or Oleclumab in PD-L1 High Locally Advanced Non-Small Cell Lung Cancer (NSCLC) (ARCHON-1)",
     "Status":"Open to Accrual",
     "Phase":"I",
     "Disease Category":"Lung [LU]",
-    "Disease Site":"Other",
+    "Disease Site":"Non-small Cell Lung Cancer",
     "Enrolled":"",
     "Planned":"",
     "Trial link":"https:\/\/www.nrgoncology.org\/\/Clinical-Trials\/Protocol\/nrg-lu004?filter=nrg-lu004"
